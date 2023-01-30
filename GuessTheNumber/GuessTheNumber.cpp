@@ -6,7 +6,6 @@ using namespace std;
 void introduction();
 int pickaRange();
 
-
 int main() {
 
    // introduction();
@@ -47,6 +46,7 @@ int pickaRange() {
     cout << "2 - Easy: <1-5>\n";
     cout << "3 - Medium: <1-10>\n";
     cout << "4 - Hard: <1-15>\n";
+   // cout << "5 - Extreme: <1-30>\n";
     cout << "5 - Pure insanity <1-100>\n\n";
 
     cout << "Pick a number (1-5) to pick a range: ";
