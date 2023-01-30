@@ -6,8 +6,11 @@ using namespace std;
 void introduction();
 int pickaRange();
 
+ bool runIntro = true; 
+
 int main() {
 
+   
    introduction();
     
     cout << "Press any key to continue...";
@@ -31,6 +34,8 @@ void introduction() {
         cout << characters[i];
         Sleep(50);
     }
+   
+   runIntro = false;
 
     return;
 }
