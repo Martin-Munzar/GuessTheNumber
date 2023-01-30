@@ -14,9 +14,10 @@ int main() {
     cout << "Press any key to continue...";
     getchar();
       
-
-    pickaRange();
-
+      int theNumber = pickaRange;
+    if (pickaRange() != -1) {
+       cout << "";       
+    }
 }
 
 void introduction() {
@@ -92,5 +93,4 @@ int pickaRange() {
 
     return nRandonNumber;
 }
-
 
