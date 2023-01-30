@@ -8,7 +8,7 @@ int pickaRange();
 
 int main() {
 
-   // introduction();
+   introduction();
     
     cout << "Press any key to continue...";
     getchar();
